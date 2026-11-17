@@ -1,1 +1,1 @@
-<!-- Hardened IaC repo: purpose, layout, session workflow and security controls table (headings only). TODO -->
+<!-- Hardened IaC repo: purpose, layout, manual session up/down and security controls table (headings only). TODO -->
