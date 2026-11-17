@@ -1,1 +1,1 @@
-# Plan/apply persistent stack via OIDC behind an approval-gated GitHub Environment; main only. TODO
+# Terraform (terraform/persistent, terraform/session). On pull_request: fmt, validate, tflint, Checkov, plan. Apply terraform/persistent only on main, through OIDC behind the approval-gated `production` environment. terraform/session is applied and destroyed by hand (docs/PLAN.md, WP2). Triggers: push to main and scenario/**, pull_request. TODO

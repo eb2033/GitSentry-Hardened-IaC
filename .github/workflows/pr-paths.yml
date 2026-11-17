@@ -1,0 +1,1 @@
+# Required check on pull requests to main: fails any pull request opened by the CI GitHub App bot that touches files outside k8s/, so the promote job cannot change terraform/ (docs/PLAN.md). Trigger: pull_request (not pull_request_target). TODO

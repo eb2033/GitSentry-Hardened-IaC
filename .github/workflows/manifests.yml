@@ -1,1 +1,1 @@
-# Scan-only CI (gitleaks, zizmor, terraform fmt/validate, tflint, checkov, kubeconform) on main and scenario/**; never applies. TODO
+# Scan-only CI: kubeconform and Checkov on k8s/ (docs/PLAN.md, fyp-iac), and zizmor on .github/workflows/ (PLAN.md "rules that apply to every workflow", WP7). Never applies; ArgoCD deploys. Triggers: push to main and scenario/**, pull_request. TODO
